@@ -1,0 +1,74 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    background-image: url('signup2.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.signupbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height:600px;
+    width: 350px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+
+h2 {
+    padding: 0;
+    margin-top:0;
+    margin-bottom:40px;
+    text-align: center;
+    color: rgb(255,217,9);
+}
+
+.lblemail, .lblpass, .lblname, .lblconpass {
+    font-weight: bold;
+    color: #fff;
+}
+
+.txtemail, .txtpass, .txtname,.txtconpass {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.txtemail, .txtpass, .txtname, .txtconpass {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.placeholder {
+    color: #000000;
+}
+
+.btnregister {
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnregister:hover {
+        background-color: rgb(255,217,9);
+    }
+    
+    .lbl{
+        color: white;
+    }
+

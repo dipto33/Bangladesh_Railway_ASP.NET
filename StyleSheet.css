@@ -1,0 +1,90 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    background-image: url('cover.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:sans-serif;
+}
+.loginbox{
+    position:absolute;
+    margin-top:50px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:500px;
+    width:350px;
+    padding:80px 60px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.5);
+}
+.user{
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    top: calc(-100px/2);
+    left:120px;
+    position:absolute;
+    border-radius:50%;
+}
+h2{
+    padding:0;
+    margin:0;
+    text-align:center;
+    color:rgb(255,217,9);
+}
+.lblemail, .lblpass{
+    font-weight:bold;
+    color:#fff;
+}
+.txtemail, .txtpass, .btnsubmit, .btnsignup{
+    width:100%;
+    margin-bottom:20px;
+}
+.txtemail, .txtpass{
+    border:none;
+    border-bottom:3px solid #fff;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+    background-color:transparent;
+}
+.placeholder{
+    color:#000000;
+}
+
+.chck {
+    color: white;
+}
+
+.btnsubmit{
+    margin-top:10%;
+    border:none;
+    outline:none;
+    height:40px;
+    font-size:16px;
+    color:#fff;
+    background-color:rgb(255,9,9);
+    cursor:pointer;
+    border-radius:20px;
+    transition:.3s ease-in-out;
+}
+
+.btnsignup {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(17, 193, 23);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.lbl2{
+    color: white;
+    margin:0;
+}
+
